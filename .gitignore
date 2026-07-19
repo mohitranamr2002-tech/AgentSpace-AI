@@ -1,7 +1,23 @@
+# IntelliJ
 .idea/
-target/
-node_modules/
-.env
 *.iml
+
+# Maven
+target/
+
+# Node
+node_modules/
+
+# Logs
 logs/
 *.log
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
