@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer components {
+  .input {
+    @apply w-full rounded-md border border-slate-300 px-3 py-2 text-sm text-slate-900 focus:border-violet-500 focus:outline-none focus:ring-1 focus:ring-violet-500;
+  }
+
+  .markdown-body {
+    @apply text-slate-700;
+
+    h1, h2, h3 {
+      @apply mt-4 mb-2 font-semibold text-slate-900 first:mt-0;
+    }
+    p {
+      @apply mb-3 leading-relaxed;
+    }
+    ul, ol {
+      @apply mb-3 ml-5 list-disc space-y-1;
+    }
+    strong {
+      @apply font-semibold text-slate-900;
+    }
+  }
+}
